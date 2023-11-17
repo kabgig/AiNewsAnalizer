@@ -1,0 +1,8 @@
+docker run -d \
+  --name=MySQL_Ai_Analizer_db \
+  -p 3306:3306 \
+  -e MYSQL_ROOT_PASSWORD=hj13hkj34 \
+  -e MYSQL_DATABASE=coinmarketcapdb \
+  -e MYSQL_USER=coinsHere \
+  -e MYSQL_PASSWORD=hj13hkj34! \
+  mysql:8.0
