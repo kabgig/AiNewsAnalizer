@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Data
 public class AiPrompt {
+
     public String userinput =
             "На сколько изменилась цена биткоин за 7 дней? " +
             "Объясни на основании новостей почему? ";

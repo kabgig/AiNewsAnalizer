@@ -25,7 +25,7 @@ public class UserInteractionService {
     @Bean
     public void AiScripFlow() {
 
-        //1st Prompt
+        //Initial Prompt
         String prompt = aiPrompt.getInitPrompt();
         String currency = openAiApiService.makeApiRequest(prompt);
         lgr().info("Identified coin: " + currency);
